@@ -27,7 +27,7 @@ nmap -sS 10.77.196.0/24
 
 ## Files Included
 
-* Report.docx
+* Report.pdf
 * hotspot_scan.txt
 * Screenshots
 
