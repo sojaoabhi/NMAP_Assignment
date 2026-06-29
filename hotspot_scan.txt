@@ -1,0 +1,31 @@
+# Nmap 7.99 scan initiated Mon Jun 29 18:01:22 2026 as: nmap -sS -oN hotspot_scan.txt 10.77.196.0/24
+Nmap scan report for 10.77.196.70
+Host is up (0.0073s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE
+2869/tcp open  icslap
+MAC Address: 6C:E8:C6:F0:71:CB (Earda Technologies)
+
+Nmap scan report for 10.77.196.184
+Host is up (0.0076s latency).
+All 1000 scanned ports on 10.77.196.184 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 8E:CC:43:02:C2:57 (Unknown)
+
+Nmap scan report for 10.77.196.198
+Host is up (0.0061s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: DE:BF:49:8B:9F:02 (Unknown)
+
+Nmap scan report for 10.77.196.176
+Host is up (0.0011s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5432/tcp open  postgresql
+
+# Nmap done at Mon Jun 29 18:01:34 2026 -- 256 IP addresses (4 hosts up) scanned in 12.02 seconds
